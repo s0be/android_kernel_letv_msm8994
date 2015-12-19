@@ -213,6 +213,12 @@ config ARCH_MSM8994
 	  This enables support for the MSM8994 chipset. If you dont
 	  know what do here, say N
 
+config ARCH_MSM8994_X1NA
+	bool "Letv LE 1 Pro MSM8994 Variant"
+	depends on ARCH_MSM8994
+	help
+	  Enable support for the Letv LE 1 Pro
+
 config ARCH_MSM8994_V1_TLBI_WA
 	bool "Enable MSM8994 v1 TLBI workaround"
 	depends on ARCH_MSM8994
