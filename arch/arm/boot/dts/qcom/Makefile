@@ -259,7 +259,21 @@ dtb-$(CONFIG_ARCH_MSM8994) += msm8994-v1-sim.dtb \
 	apq8094-v2.1-mtp.dtb \
 	apq8094-v2.1-liquid.dtb \
 	apq8094-v2.1-fluid.dtb \
-	apq8094-v2.1-dragonboard.dtb
+	apq8094-v2.1-dragonboard.dtb \
+	x1_na/cf_8_10_20000.dts \
+	x1_na/cf_8_14_20000.dts \
+	x1_na/cf_8_1_20000.dts \
+	x1_na/cf_8_20_20000.dts \
+	x1_na/cf_8_2_20000.dts \
+	x1_na/cf_8_34_20000.dts \
+	x1_na/cf_8_3_20000.dts \
+	x1_na/cf_8_10_20001.dts \
+	x1_na/cf_8_14_20001.dts \
+	x1_na/cf_8_1_20001.dts \
+	x1_na/cf_8_20_20001.dts \
+	x1_na/cf_8_2_20001.dts \
+	x1_na/cf_8_34_20001.dts \
+	x1_na/cf_8_3_20001.dts
 
 dtb-$(CONFIG_ARCH_MSM8992) += msm8992-sim.dtb \
 	msm8992-rumi.dtb \
